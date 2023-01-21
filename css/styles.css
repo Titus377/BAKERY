@@ -1,0 +1,175 @@
+body > * {
+    border: 1px solid black;
+}
+
+
+
+
+
+body > * {
+
+    border: 1px solid  black;
+}
+
+body {
+    background-color: rgb(122, 190, 38);
+ }
+
+ header.hero.hero-row{
+    display: flex;
+    flex-direction: row;
+}
+
+header .banner{
+    width: 1000px;
+}
+
+header.hero .custom-icons > span { 
+    background-color: #4f65a1; 
+    border-radius: 100px; 
+    padding: 50px; 
+    margin: 50px;
+ }
+
+
+
+
+title {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(98, 132, 207);
+}
+
+
+
+
+.column.k{
+    color: rgb(236, 234, 234);
+    box-sizing: border-box;
+
+
+}
+body > * {
+    border: 1px solid black;
+}
+
+
+.row.k {
+    display: flex;
+}
+.column.k {
+    flex: 35%;
+   
+}
+.column.k{
+    display: block;
+}
+/* Three image containers m */
+.column {
+    float:left;
+    width: 30%;
+    
+}
+
+/* clear floats after image containers*/
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+
+
+
+
+/*styles outside from bulma (same syntax but they arent  in the library)*/
+
+.hero.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+  .hero.is-primary{
+    flex-grow: 1;
+}
+  .hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+.image.is-200x200{
+    width: 200px;
+    height: 200px;
+}
+.image.is-600x600{
+    width: 600px;
+    height: 600px;
+}
+
+.has-text-centered{
+    text-justify: auto ;
+}
+
+nav .level-item:not(:last-child) {
+    border-right: 1px solid black;
+}
+nav.level{
+    border-bottom: 1px solid black;
+    background-color: #f1f1f1;
+}
+nav a {
+    text-decoration: none;
+}
+
+.columns__main-page{
+    display: flex;
+}
+
+.columns__main-page .column.content{
+    flex-grow: 1;
+}
+
+footer{
+    border-top: 1px solid black;
+}
+
+.social__icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+
+}
+.social__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #f1efef;
+}
+.social__icon a{
+    color: navajowhite;
+}
+div.column.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.table-label{
+    width: 80px;
+}
+.radio-options{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-info{
+    background-color: #7e69dd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
